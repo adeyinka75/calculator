@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stlye.css">
+</head>
+
+<body>
+    <section>
+        <div class="calculator">
+            <div id="screen">
+
+            </div>
+            <div class="col col-top">
+                <p>
+                    <button onclick="clearScreen()">clr</button>
+                </p>
+                <p>
+                    <button onclick="delvalue()">del</button>
+                </p>
+            </div>
+            <div class="buttons">
+                <div class="col">
+                    <p>
+                        <button onclick="displayScreen('7')">7</button>
+                    </p>
+                    <p>
+                        <button onclick="displayScreen('4')">4</button>
+                    </p>
+                    <p>
+                        <button onclick="displayScreen('1')">1</button>
+                    </p>
+                    <p>
+                        <button onclick="displayScreen('0')">0</button>
+                    </p>
+
+                </div>
+                <div class="col">
+                    <p>
+                        <button onclick="displayScreen('8')">8</button>
+                    </p>
+                    <p>
+                        <button onclick="displayScreen('5')">5</button>
+                    </p>
+                    <p>
+                        <button onclick="displayScreen('2')">2</button>
+                    </p>
+                    <p>
+                        <button onclick="displayScreen('.')">.</button>
+                    </p>
+
+                </div>
+                <div class="col">
+                    <p>
+                        <button onclick="displayScreen('9')">9</button>
+                    </p>
+                    <p>
+                        <button onclick="displayScreen('6')">6</button>
+                    </p>
+                    <p>
+                        <button onclick="displayScreen('3')">3</button>
+                    </p>
+                    <p>
+                        <button onclick="calcValue()">=</button>
+                    </p>
+
+                </div>
+                <div class="col col-4">
+                    <p>
+                        <button onclick="displayScreen(' / ')">/</button>
+                    </p>
+                    <p>
+                        <button onclick="displayScreen(' * ')">*</button>
+                    </p>
+                    <p>
+                        <button onclick="displayScreen(' - ')">-</button>
+                    </p>
+                    <p>
+                        <button onclick="displayScreen(' + ')">+</button>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <script src="cal.js"></script>
+</body>
+
+</html>
